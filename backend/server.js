@@ -21,6 +21,8 @@ const conectarDB = async () => {
 // Llamar la función para conectar
 conectarDB();
 
+app.use('/api/juegos', require('./routes/games'));
+app.use('/api/resenas', require('./routes/reviews'));
 // Ruta de prueba
 app.get('/', (req, res) => {
   res.json({ mensaje: '🚀 Servidor GameTracker funcionando!' });
