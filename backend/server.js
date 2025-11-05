@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 app.use(express.json());
 
-const MONGODB_URI = 'mongodb+srv://jacobogarcesoquendo:aFJzVMGN3o7fA38A@cluster0.mqwbn.mongodb.net/cristian_acosta';
+const MONGODB_URI = 'mongodb+srv://jacobogarcesoquendo:aFJzVMGN3o7fA38A@cluster0.mqwbn.mongodb.net/cristian_david_acosta_hernandez';
 
 // Conectar a MongoDB
 const conectarDB = async () => {
@@ -18,6 +18,7 @@ const conectarDB = async () => {
   }
 };
 
+// Llamar la función para conectar
 conectarDB();
 
 // ======== AGREGAR AQUÍ LOS DATOS DE PRUEBA ========
