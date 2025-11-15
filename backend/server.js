@@ -7,7 +7,8 @@ const app = express();
 app.use(cors({
   origin: [
     'https://chris10766h.github.io',
-    'http://localhost:5173'
+    'http://localhost:5173',
+    'https://proyecto-backend.onrender.com' 
   ],
   credentials: true
 }));
