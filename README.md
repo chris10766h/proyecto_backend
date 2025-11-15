@@ -59,7 +59,7 @@ Agrega lo siguiente:
 
 ```
 MONGO_URI=tu_url_de_mongodb
-PORT=3000
+PORT=5000
 ```
 
 ---
