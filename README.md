@@ -67,8 +67,8 @@ PORT=3000
 ## ▶️ Scripts
 
 ```bash
-npm run start   # Inicia el servidor en modo producción
-npm run dev     # Inicia el servidor con nodemon (desarrollo)
+node server.js   # Inicia el servidor 
+
 ```
 
 ---
